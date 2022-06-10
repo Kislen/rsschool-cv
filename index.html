@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/cv-ico.ico">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#example-code" class="nav-link">Example Code</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="section" id="profile">
+                <img src="assets/images/avatar.png" alt="My photo">
+                <div class="profie-text">
+                    <h1>Kisli<span>ankou Viacha</span>slau</h1>
+                    <h2 class ="prof">JUNIOR FRONT-END DEVELOPER</h2>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Location: Minsk,Belarus</li>
+                    <li>email: kislenkov.vs@gmail.com</li>
+                    <li>GitHub: <a href="https://github.com/Kislen">Kislen</a></li>
+                </ul>
+            </section>
+            <section class="section" id="about-me">
+                <h2 class="section-title">About me</h2>
+                <p>
+                    Working as an engineer and manager, I gained experience in solving complex problems to achieve
+                    results. I like to get new knowledge from different industries. Currently I have decided to become a
+                    web developer.
+                </p>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>University: BRU, Mecanical engineer</li>
+                </ul>
+            </section>
+            <section class="section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <ul>
+                    <li>mechanical engineer(2003-2011)</li>
+                    <li>manager in the management company of a large holding(2011-202)</li>
+                </ul>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Scills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>AutoCAD</li>
+                </ul>
+            </section>
+            <section class="section" id="example-code">
+                <h2 class="section-title">Example Code</h2>
+                <pre>
+                    <code>
+function getParticipants(handshakes) {
+    let amountOfParticipants = 1;
+    let indexParticipants = 1;
+                    
+    while (handshakes) {
+        if (amountOfParticipants === indexParticipants) {
+            amountOfParticipants++;
+            indexParticipants = 1;
+        }
+        else {
+        handshakes--;
+        indexParticipants++;
+        }
+    }
+    
+    return amountOfParticipants;
+}                        
+                    </code>
+                </pre>
+
+            </section>
+            <section class="section" id="english">
+                <h2 class="section-title">English</h2>
+                <p>
+                    <a href="https://test.str.by/login/index.php">StreamLine Language School English test result: </a>
+                    **Pre-Intermediate (CEFR A2+).**
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <a href="https://github.com/Kislen">2022 Kislen</a>
+            <a href="https://rs.school/"><img src="https://rs.school/images/rs_school.svg" alt="Logo RS School"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
