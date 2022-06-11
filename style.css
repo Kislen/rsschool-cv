@@ -48,6 +48,7 @@ span {
 /* header style start */
 .header {
     background-color: #829985;
+    width: 100%;
 }
 .nav-list {
     display: flex;
