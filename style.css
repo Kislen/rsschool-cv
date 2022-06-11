@@ -121,7 +121,7 @@ span {
     color: #4d2323;
 }
 .section pre {
-    overflow: scroll;
+    overflow: auto;
 }
 
 @media (max-width: 768px) {
