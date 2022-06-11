@@ -48,7 +48,6 @@ span {
 /* header style start */
 .header {
     background-color: #829985;
-    width: 100%;
 }
 .nav-list {
     display: flex;
@@ -120,6 +119,9 @@ span {
 }
 .section a:hover {
     color: #4d2323;
+}
+.section pre {
+    overflow: scroll;
 }
 
 @media (max-width: 768px) {
