@@ -1,7 +1,7 @@
 # Viachaslau Kisliankou
 ## Contacts
 _____
-+ Location: Moscow,Belarus
++ Location: Minsk, Belarus
 + email: kislenkov.vs@gmail.com
 + GitHub: [Kislen](https://github.com/Kislen)
 
