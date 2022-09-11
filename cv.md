@@ -2,7 +2,7 @@
 ## Contacts
 _____
 + Location: Minsk, Belarus
-+ email: kislenkov.vs@gmail.co
++ email: kislenkov.vs@gmail.com
 + GitHub: [Kislen](https://github.com/Kislen)
 
 
