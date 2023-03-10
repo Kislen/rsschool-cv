@@ -14,7 +14,6 @@ Working as *an engineer and manager*, I gained **experience** in solving complex
 University: BRU, Mecanical engineer
 
 
-
 ## Experience
 
 |    |    |
